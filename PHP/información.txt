@@ -1,0 +1,19 @@
+Se crea en phpMyAdmin una nueva base de datos llamada proyecto, que contiene las siguientes tablas:
+
+
+usuarios, que tendrá 5 campos y serán los siguientes:
+
+usuario  			varchar 10
+clave    			varchar 10
+nombre   			varchar 30
+fechaNacimiento 		date
+email 			varchar 60
+idPartida			int 11
+
+
+partidas, que tendrá los siguientes campos:
+
+idPartida			int a_i primary
+nivel				int 30
+tiempo			time
+puntuación			int
